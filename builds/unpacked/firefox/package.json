@@ -1,0 +1,14 @@
+{
+  "title": "Simple Checker for Gmail™",
+  "name": "iscfgmail",
+  "description": "Get badge notification when you receive a new email in your inbox",
+  "id": "jid1-fmmMm36yhukioOuza@jetpack",
+  "license": "Mozilla Public License, version 2.0",
+  "version": "0.1.0",
+  "author": "Richard  Neomy",
+  "main": "./lib/background.js",
+  "url": "http://add0n.com/simple-checker-for-gmail.html",
+  "permissions": {
+    "private-browsing": true
+  }
+}

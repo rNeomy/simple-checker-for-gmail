@@ -1,0 +1,32 @@
+{
+  "name": "Simple Checker for Gmail™",
+  "short_name": "iscfgmail",
+  "description": "this is a template extension",
+  "author": "Richard Neomy",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "tabs",
+    "notifications",
+    "webRequest",
+    "https://mail.google.com/mail/*",
+    "https://accounts.google.com/*"
+  ],
+  "web_accessible_resources": [],
+  "browser_action": {
+    "default_icon": {
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png"
+    }
+  },
+  "background": {
+    "page": "lib/chrome/background.html"
+  },
+  "homepage_url": "http://add0n.com/simple-checker-for-gmail.html",
+  "icons": {
+    "16": "data/icons/16.png",
+    "48": "data/icons/48.png",
+    "128": "data/icons/128.png"
+  }
+}
